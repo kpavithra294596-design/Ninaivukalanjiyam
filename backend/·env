@@ -1,0 +1,2 @@
+DATABASE_URL=postgresql://ninaivu_admin:your_password@localhost:5432/NinaivuKalanjiyam
+PORT=5000
