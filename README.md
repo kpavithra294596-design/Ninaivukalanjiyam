@@ -1,19 +1,27 @@
 ## Commit Message Guidelines
-- Add: புதிய feature சேர்த்தல்
-- Fix: bug திருத்தம்
-- Update: இருக்கும் code மாற்றம்
-- Remove: தேவையில்லாத code நீக்கம்
+
+* **Add:** Creating or adding a new feature
+* **Fix:** Resolving a bug or an error
+* **Update:** Modifying or improving existing code
+* **Remove:** Deleting unnecessary or redundant code
+*
 ## Nginx Setup
 
-Nginx என்பது website-ஐ server-ல் ஓட வைக்க பயன்படும் software. `nginx.conf.example` என்பது ஒரு மாதிரி config file.
+Nginx is an open-source software used for web serving, reverse proxying, and caching to run your website smoothly on a server. The `nginx.conf.example` file is provided as a reference configuration template.
 
-1. `nginx.conf.example` file-ஐ `nginx.conf` என்று copy செய்யவும்
-2. `server_name` மற்றும் `proxy_pass` விவரங்களை மாற்றவும்
-3. Nginx-ஐ restart செய்யவும்
+1. Copy the `nginx.conf.example` file and rename it to `nginx.conf`.
+2. Update the `server_name` and `proxy_pass` details according to your server configuration.
+3. Restart the Nginx service to apply changes.
+4.
 
 ## Releases
 
-Release என்பது project-ன் ஒரு முடிந்த version-ஐ GitHub-ல் குறிக்கும் முறை.
+A Release in GitHub marks a specific point in your project's history, typically indicating a completed and stable version of your application.
+
+* Clearly indicates project completion and major milestones.
+* Allows tracking different stable versions individually (e.g., v1.0, v2.0).
+* Keeps the repository organized and looking professional.
+*
 
 - Project முடிந்துவிட்டது என்று தெளிவாகத் தெரியும்
 - v1.0, v2.0 என்று version-களை தனித்தனியாக track செய்யலாம்
