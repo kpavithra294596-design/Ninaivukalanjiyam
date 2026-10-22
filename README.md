@@ -23,8 +23,4 @@ A Release in GitHub marks a specific point in your project's history, typically 
 * Keeps the repository organized and looking professional.
 *
 
-- Project முடிந்துவிட்டது என்று தெளிவாகத் தெரியும்
-- v1.0, v2.0 என்று version-களை தனித்தனியாக track செய்யலாம்
-- Professional-ஆகவும் தெரியும்
-
-Current version: **v1.0**
+-
