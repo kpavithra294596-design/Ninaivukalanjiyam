@@ -1,7 +1,7 @@
-const CACHE_NAME = "ninaivu-pwa-v1";
-const APP_SHELL = ["/", "/index.html", "/manifest.json", "/favicon.svg"];
+const CACHE_NAME = "ninaivu-pwa-v2";
+const APP_SHELL = ["/", "/index.html", "/manifest.json", "/favicon.svg", "/pwa-icons/icon-192.png", "/pwa-icons/icon-512.png"];
 const STATIC_BUNDLE_PREFIX = "/assets/";
-const STATIC_PUBLIC_PATHS = new Set(["/favicon.svg", "/logo.png"]);
+const STATIC_PUBLIC_PATHS = new Set(["/favicon.svg", "/logo.png", "/pwa-icons/icon-192.png", "/pwa-icons/icon-512.png"]);
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
